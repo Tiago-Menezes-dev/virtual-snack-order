@@ -1,0 +1,42 @@
+
+{
+  "tiposProdutos": ["Lanches", "Bebidas", "Porções", "Sobremesas"],
+  "produtos": [
+    {
+      "tipo": "Lanches",
+      "nome": "X-Burger",
+      "descricao": "Hambúrguer artesanal, queijo, alface e tomate",
+      "valor": 25.90
+    },
+    {
+      "tipo": "Lanches",
+      "nome": "X-Bacon",
+      "descricao": "Hambúrguer artesanal, bacon, queijo, alface e tomate",
+      "valor": 28.90
+    },
+    {
+      "tipo": "Bebidas",
+      "nome": "Refrigerante",
+      "descricao": "Lata 350ml",
+      "valor": 6.00
+    },
+    {
+      "tipo": "Bebidas",
+      "nome": "Suco Natural",
+      "descricao": "Copo 500ml",
+      "valor": 8.00
+    },
+    {
+      "tipo": "Porções",
+      "nome": "Batata Frita",
+      "descricao": "Porção grande com cheddar e bacon",
+      "valor": 35.90
+    },
+    {
+      "tipo": "Sobremesas",
+      "nome": "Brownie",
+      "descricao": "Brownie caseiro com sorvete",
+      "valor": 15.90
+    }
+  ]
+}
