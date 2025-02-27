@@ -34,7 +34,7 @@ export function OrderSummary({ open, onOpenChange, items }: OrderSummaryProps) {
         .join("\n")}`;
       
       const encodedMessage = encodeURIComponent(message);
-      window.open(`https://wa.me/?text=${encodedMessage}`, "_blank");
+      window.open(`https://wa.me/5573999503835?text=${encodedMessage}`, "_blank");
       
       toast({
         title: "Pedido enviado com sucesso!",
