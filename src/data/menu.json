@@ -1,42 +1,1480 @@
-
 {
-  "tiposProdutos": ["Lanches", "Bebidas", "Porções", "Sobremesas"],
+  "nome": "O Beco Burger",
+  "tiposProdutos": ["hamburguer", "bebida", "porcao", "sobremesa"],
   "produtos": [
     {
-      "tipo": "Lanches",
-      "nome": "X-Burger",
-      "descricao": "Hambúrguer artesanal, queijo, alface e tomate",
-      "valor": 25.90
+      "tipo": "hamburguer",
+      "nome": "Hambúrguer",
+      "descricao": "Pão de hambúrguer, carne, salada e molho",
+      "valor": 10.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
     },
     {
-      "tipo": "Lanches",
-      "nome": "X-Bacon",
-      "descricao": "Hambúrguer artesanal, bacon, queijo, alface e tomate",
-      "valor": 28.90
+      "tipo": "hamburguer",
+      "nome": "Cheese Burguer",
+      "descricao": "Pão de hambúrguer, carne, queijo, salada e molho",
+      "valor": 12.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
     },
     {
-      "tipo": "Bebidas",
-      "nome": "Refrigerante",
-      "descricao": "Lata 350ml",
-      "valor": 6.00
+      "tipo": "hamburguer",
+      "nome": "Cheese Americano",
+      "descricao": "Pão de hambúrguer, carne, ovo, presunto, 2 queijos, salada e molho",
+      "valor": 17.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
     },
     {
-      "tipo": "Bebidas",
-      "nome": "Suco Natural",
-      "descricao": "Copo 500ml",
-      "valor": 8.00
+      "tipo": "hamburguer",
+      "nome": "Cheese Egg",
+      "descricao": "Pão de hambúrguer, carne, queijo, ovo, salada e molho",
+      "valor": 15.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
     },
     {
-      "tipo": "Porções",
-      "nome": "Batata Frita",
-      "descricao": "Porção grande com cheddar e bacon",
-      "valor": 35.90
+      "tipo": "hamburguer",
+      "nome": "Cheese Salada",
+      "descricao": "Pão de hambúrguer, carne, queijo, presunto, salada e molho",
+      "valor": 15.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
     },
     {
-      "tipo": "Sobremesas",
-      "nome": "Brownie",
-      "descricao": "Brownie caseiro com sorvete",
-      "valor": 15.90
+      "tipo": "hamburguer",
+      "nome": "Cheese Calabresa",
+      "descricao": "Pão de hambúrguer, carne, calabresa, batata palha, salada, queijo e molho",
+      "valor": 20.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Cheese Bacon",
+      "descricao": "Pão de hambúrguer, carne, bacon, batata palha, salada, queijo e molho",
+      "valor": 20.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Cheese Egg Bacon",
+      "descricao": "Pão de hambúrguer, carne, bacon, ovo, presunto, queijo, batata palha, salada e molho",
+      "valor": 21.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Double Cheese",
+      "descricao": "Pão de hambúrguer, 2 carnes, 2 queijos, tomate e molho",
+      "valor": 18.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Triplo Cheese",
+      "descricao": "Pão de hambúrguer, 3 carnes, 3 queijos, salada e molho",
+      "valor": 20.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Big Beco",
+      "descricao": "Pão de hambúrguer, 2 carnes, 2 queijos, 2 presuntos, ovo, bacon, calabresa, batata palha, salada e molho",
+      "valor": 29.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Frambúrguer",
+      "descricao": "Pão de hambúrguer, frango desfiado, salada, queijo e molho de mostarda, pimenta e mel",
+      "valor": 17.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Grill",
+      "descricao": "Pão de hambúrguer, grão de bico, picles, cheddar, cebola, molho de ervas, tomate e alface",
+      "valor": 24.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Banana Vegetariana",
+      "descricao": "Pão de hambúrguer, blend de grão de bico, queijo coalho, banana da terra e molho",
+      "valor": 23.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Tomate Vegetariano",
+      "descricao": "Pão de hambúrguer, blend de grão de bico, rúcula, tomate na chapa e molho de ervas",
+      "valor": 21.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Búrguer Vegetal",
+      "descricao": "Pão de hambúrguer, blend de grão-de-bico, abobrinha, berinjela na chapa, tomate na chapa e molho",
+      "valor": 21.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Grão-de-bico",
+      "descricao": "Pão de hambúrguer, blend de grão-de-bico, ovo, queijo, salada e molho",
+      "valor": 20.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Double",
+      "descricao": "Pão de hambúrguer, 2 blends de 150g, 2 queijos (mussarela), salada e molho",
+      "valor": 35.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Burguer",
+      "descricao": "Pão de hambúrguer, blend 150g, mussarela, salada e molho",
+      "valor": 25.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Bacon",
+      "descricao": "Pão de hambúrguer, blend 150g, bacon, ovo, mussarela, salada e molho",
+      "valor": 30.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco",
+      "descricao": "Pão de hambúrguer, blend 150g, salada, cheddar, picles, bacon, cebola roxa e barbecue",
+      "valor": 30.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco 73",
+      "descricao": "Pão de hambúrguer, blend 150g, cebola caramelizada, queijo coalho, cupim desfiado e molho barbecue",
+      "valor": 34.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Calixto",
+      "descricao": "Pão de hambúrguer, blend 150g, cebola na chapa, bacon, cream cheese e molho de ervas",
+      "valor": 30.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "hamburguer",
+      "nome": "Beco Ligth",
+      "descricao": "Pão de hambúrguer, blend 150g, banana da terra, rúcula, queijo coalho, cebola, molho de ervas",
+      "valor": 30.00,
+      "acrescimosDisponiveis": [
+        {
+          "nome": "Pão australiano",
+          "valor": 1.00
+        },
+        {
+          "nome": "Cebola caramelizada",
+          "valor": 4.00
+        },
+        {
+          "nome": "Coalho",
+          "valor": 4.00
+        },
+        {
+          "nome": "Bacon",
+          "valor": 5.00
+        },
+        {
+          "nome": "Cheddar",
+          "valor": 4.00
+        },
+        {
+          "nome": "Calabresa",
+          "valor": 5.00
+        },
+        {
+          "nome": "Frango desfiado",
+          "valor": 4.00
+        },
+        {
+          "nome": "Salada",
+          "valor": 1.00
+        },
+        {
+          "nome": "Batata palha",
+          "valor": 2.00
+        },
+        {
+          "nome": "Blend",
+          "valor": 9.00
+        },
+        {
+          "nome": "Carne tradicional",
+          "valor": 3.00
+        },
+        {
+          "nome": "Mussarela",
+          "valor": 5.00
+        } 
+      ]
+    },
+    {
+      "tipo": "porcao",
+      "nome": "Batata Tradicional (200g)",
+      "descricao": "Batata frita tradicional",
+      "valor": 15.00
+    },
+    {
+      "tipo": "porcao",
+      "nome": "Batata Tradicional (400g)",
+      "descricao": "Batata frita tradicional em porção maior",
+      "valor": 25.00
+    },
+    {
+      "tipo": "porcao",
+      "nome": "Batata Cheddar e Bacon (400g)",
+      "descricao": "Batata frita com cheddar e bacon",
+      "valor": 35.00
+    },
+    {
+      "tipo": "porcao",
+      "nome": "Batata Oxente (400g)",
+      "descricao": "Batata frita, requeijão cremoso e carne seca desfiada",
+      "valor": 38.00
+    },
+    {
+      "tipo": "porcao",
+      "nome": "Onion Rings (300g)",
+      "descricao": "Anéis de cebola empanados e fritos",
+      "valor": 18.00
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Refrigerante em lata",
+      "descricao": "350ml",
+      "valor": 7.00
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Refrigerante 1 litro",
+      "descricao": "1 litro",
+      "valor": 9.00
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Cerveja Long Neck",
+      "descricao": "",
+      "valor": 10.00
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Suco de Polpa",
+      "descricao": "Copo com opção de adicionar leite por R$1,00",
+      "valor": 7.00,
+      "opcoes": [
+        "Laranja",
+        "Manga",
+        "Cacal"
+      ]
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Suco de fruta",
+      "descricao": "",
+      "valor": 9.00,
+      "opcoes": [
+        "Laranja",
+        "Manga",
+        "Cacal"
+      ]
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Água sem Gás",
+      "descricao": "",
+      "valor": 3.00
+    },
+    {
+      "tipo": "bebida",
+      "nome": "Água com Gás",
+      "descricao": "",
+      "valor": 4.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Ovomaltine (300ml)",
+      "descricao": "",
+      "valor": 20.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Chocolate (300ml)",
+      "descricao": "",
+      "valor": 18.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Paçoca (300ml)",
+      "descricao": "",
+      "valor": 18.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Oreo (300ml)",
+      "descricao": "",
+      "valor": 20.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Ovomaltine (500ml)",
+      "descricao": "",
+      "valor": 23.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Chocolate (500ml)",
+      "descricao": "",
+      "valor": 22.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Paçoca (500ml)",
+      "descricao": "",
+      "valor": 22.00
+    },
+    {
+      "tipo": "sobremesa",
+      "nome": "Milk Shake Oreo (500ml)",
+      "descricao": "",
+      "valor": 23.00
     }
   ]
 }

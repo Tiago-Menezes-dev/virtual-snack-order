@@ -4,6 +4,7 @@ export interface Produto {
   nome: string;
   descricao: string;
   valor: number;
+  subtipo: string;
 }
 
 export interface ProdutoCarrinho extends Produto {

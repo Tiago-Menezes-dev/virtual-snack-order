@@ -1,4 +1,3 @@
-
 import { Tabs, TabsList, TabsTrigger, TabsContent } from "@/components/ui/tabs";
 import { MenuData } from "@/types/menu";
 import ProductList from "./ProductList";
@@ -10,14 +9,28 @@ interface MenuTabsProps {
 export function MenuTabs({ menuData }: MenuTabsProps) {
   return (
     <Tabs defaultValue={menuData.tiposProdutos[0]} className="w-full">
-      <TabsList className="w-full flex overflow-x-auto justify-start mb-6">
+      <TabsList className="w-full flex justify-start gap-4 mb-10 bg-transparent mt-8">
         {menuData.tiposProdutos.map((tipo) => (
           <TabsTrigger
             key={tipo}
             value={tipo}
-            className="px-4 py-2 min-w-max"
+            className="flex flex-col items-center gap-2 p-0 group data-[state=active]:shadow-none"
           >
-            {tipo}
+            <div className="w-16 h-16 rounded-full border-primary bg-zinc-100 flex items-center justify-center group-data-[state=active]:bg-neutral-900">
+              <img
+                src={`/${tipo.toLowerCase()}.svg`}
+                alt={tipo}
+                width={32}
+                height={32}
+                className="w-8 h-8"
+              />
+            </div>
+            <span className="text-sm">
+              {tipo === 'hamburguer' ? 'Hamburguer' :
+               tipo === 'bebida' ? 'Bebidas' :
+               tipo === 'porcao' ? 'Porções' :
+               tipo === 'sobremesa' ? 'Sobremesas' : tipo}
+            </span>
           </TabsTrigger>
         ))}
       </TabsList>
