@@ -24,7 +24,7 @@ interface MenuItem {
   block: boolean;
 }
 
-const Index = () => {
+const Menu = () => {
   const location = useLocation();
   const [currentPath, setCurrentPath] = useState("");
   const [showOrderSummary, setShowOrderSummary] = useState(false);
@@ -210,4 +210,4 @@ const Index = () => {
   );
 };
 
-export default Index;
+export default Menu;

@@ -3,7 +3,7 @@ import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Index from "./pages/Index";
+import Menu from "./pages/Menu";
 import NotFound from "./pages/NotFound";
 import { CreateUser } from "./pages/CreateUser";
 import { onAuthStateChanged, User } from "firebase/auth";
@@ -54,7 +54,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<CreateUser user={user} />} />
           <Route path="/painel" element={<ProtectedRoute user={user}><Painel /></ProtectedRoute>} />
-          <Route path="/menu/:businessName" element={<Index />} />
+          <Route path="/menu/:businessName" element={<Menu />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </BrowserRouter>

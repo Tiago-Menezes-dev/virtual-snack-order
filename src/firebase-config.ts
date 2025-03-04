@@ -5,14 +5,14 @@ import { getAuth } from "firebase/auth";
 import { getDatabase } from "firebase/database";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyDXhZZGO7CtrbTUvamgJmmJ_2v3yWYUmfg",
-  authDomain: "menuchat-a215e.firebaseapp.com",
-  databaseURL: "https://menuchat-a215e-default-rtdb.firebaseio.com",
-  projectId: "menuchat-a215e",
-  storageBucket: "menuchat-a215e.firebasestorage.app",
-  messagingSenderId: "1002439982066",
-  appId: "1:1002439982066:web:1a351f64ca5cbdadd8896b",
-  measurementId: "G-RJP6BSXYGD"
+  apiKey: import.meta.env.VITE_API_KEY,
+  authDomain: import.meta.env.VITE_AUTH_DOMAIN,
+  databaseURL: import.meta.env.VITE_DATABASE_URL,
+  projectId: import.meta.env.VITE_PROJECT_ID,
+  storageBucket: import.meta.env.VITE_STORAGE_BUCKET,
+  messagingSenderId: import.meta.env.VITE_MESSAGING_SENDER_ID,
+  appId: import.meta.env.VITE_APP_ID,
+  measurementId: import.meta.env.VITE_MEASUREMENT_ID
 };
 
  
